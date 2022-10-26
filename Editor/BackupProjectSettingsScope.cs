@@ -6,7 +6,7 @@ namespace Kogane
     /// <summary>
     /// ProjectSettings.asset のバックアップと復元を行うスコープ
     /// </summary>
-    internal sealed class BackupProjectSettingsScope : IDisposable
+    public sealed class BackupProjectSettingsScope : IDisposable
     {
         //================================================================================
         // 定数
