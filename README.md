@@ -10,7 +10,7 @@ using Kogane;
 using UnityEditor;
 using UnityEngine;
 
-public sealed class Example : MonoBehaviour
+public static class Example
 {
     [MenuItem( "Tools/Hoge" )]
     public static void Hoge()
